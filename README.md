@@ -9,7 +9,6 @@ Visual-RFT-main/share_data 下面放着数据，ViRFT_COCO_base65下面放着原
 
 Visual-RFT-main/out是输出模型的位置
 
-现在在跑的是作者的7B 跑完跑我们自己的
 推理问题出在坐标和模型不匹配
 
 训练
