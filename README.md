@@ -1,5 +1,5 @@
 # Visual-RFT-main_sft
-
+环境配置 bash setup.sh
 文件准备
 Visual-RFT-main/Qwen/ 下面放 Qwen2-VL-2B-Instruct和Qwen2-VL-7B-Instruct
 
