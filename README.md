@@ -1,4 +1,4 @@
-<img width="926" height="295" alt="image" src="https://github.com/user-attachments/assets/e0796f11-9e5b-4161-a878-321ae5f1e75d" /># Visual-RFT-main_sft
+# Visual-RFT-main_sft
 环境配置 bash setup.sh
 
 文件准备 Visual-RFT-main_sft/Qwen/ 下面放 Qwen2-VL-2B-Instruct和Qwen2-VL-7B-Instruct
