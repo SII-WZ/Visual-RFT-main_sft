@@ -49,4 +49,9 @@ Visual-RFT-main_sft/coco_evaluation/evl_train65_sft_map.py（计算结果）
 
 结果记录
 <img width="926" height="295" alt="image" src="https://github.com/user-attachments/assets/d2a240d3-2e1c-4a73-a81e-79e7a8bba05d" />
+w/o think是把question的think去掉。Sft结果差是因为没有收敛以上均按原文配置2 epoch进行.sft 2epoch只训30个数据可以收敛到43. 训6000个 2epoch 就会忘记只收敛到17.
+<img width="507" height="152" alt="image" src="https://github.com/user-attachments/assets/e00433b2-846c-457e-becc-fd0251179733" /> 
+2b模型自动保持的config文件有参数问题 需替换成原生qwen的文件 7b没有这个问题
+<img width="911" height="235" alt="image" src="https://github.com/user-attachments/assets/1060959a-940f-49c4-b22e-4fe355b3916f" />
+LISA均有思维链
 
