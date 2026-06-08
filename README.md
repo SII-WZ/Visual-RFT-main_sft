@@ -1,4 +1,4 @@
-# Visual-RFT-main_sft
+<img width="926" height="295" alt="image" src="https://github.com/user-attachments/assets/e0796f11-9e5b-4161-a878-321ae5f1e75d" /># Visual-RFT-main_sft
 环境配置 bash setup.sh
 
 文件准备 Visual-RFT-main_sft/Qwen/ 下面放 Qwen2-VL-2B-Instruct和Qwen2-VL-7B-Instruct
@@ -46,3 +46,7 @@ question  这是问题prompt 需不需要think在这里操作。
 coco训练的数据的推理测试
 Visual-RFT-main_sft/coco_evaluation/evl_train65_sft.py（推理）
 Visual-RFT-main_sft/coco_evaluation/evl_train65_sft_map.py（计算结果）
+
+结果记录
+<img width="926" height="295" alt="image" src="https://github.com/user-attachments/assets/d2a240d3-2e1c-4a73-a81e-79e7a8bba05d" />
+
