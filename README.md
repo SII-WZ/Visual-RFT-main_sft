@@ -55,7 +55,8 @@ w/o think是把question的think去掉。Sft结果差是因为没有收敛以上�
 
 <img width="507" height="152" alt="image" src="https://github.com/user-attachments/assets/e00433b2-846c-457e-becc-fd0251179733" /> 
 
-2b模型自动保持的config文件有参数问题 需替换成原生qwen的文件 7b没有这个问题
+2b模型自动保持的config文件有参数问题 需替换成原生qwen的文件 7b没有这个问题,问题出在微调保存的 checkpoint 里的 tokenizer config.json 缺少 chat_template
+可以把配置文件换成原生的processor = AutoProcessor.from_pretrained("./Qwen/Qwen2-VL-2B-Instruct") 或者整体替换checkpoint里面的tokenizer config.json
 
 <img width="911" height="235" alt="image" src="https://github.com/user-attachments/assets/1060959a-940f-49c4-b22e-4fe355b3916f" />
 
