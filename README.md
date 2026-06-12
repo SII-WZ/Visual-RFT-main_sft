@@ -49,7 +49,8 @@ Visual-RFT-main_sft/coco_evaluation/evl_train65_sft_map.py（计算结果）
 
 结果记录
 
-<img width="926" height="295" alt="image" src="https://github.com/user-attachments/assets/d2a240d3-2e1c-4a73-a81e-79e7a8bba05d" />
+<img width="865" height="332" alt="image" src="https://github.com/user-attachments/assets/bc16b37d-9d0b-4471-b771-c7b28df3a9f8" />
+
 
 w/o think是把question的think去掉。Sft结果差是因为没有收敛以上均按原文配置2 epoch进行.sft 2epoch只训30个数据可以收敛到43. 训6000个 2epoch 就会忘记只收敛到17.
 
